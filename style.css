@@ -1,0 +1,97 @@
+
+div {
+    margin-top: 1cm;
+    margin-bottom: 1px;
+    margin-left: 1in;
+    margin-right: 1em;
+    padding-top: 1ex;
+    padding-right: 1ch;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    height: 10px;
+    width: 100px;
+    max-width: 200px;
+    min-width: none;
+    display:contents;
+}
+a {
+    display:block;
+    color: #ff6347;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: initial;
+}
+
+.grid-container {
+    display:grid;
+    grid-column: span;
+    grid-row: span;
+    grid-area: span;
+}
+.center {
+    color: red;
+}
+* {
+    text-align: center;
+}
+a:hover {
+    color:red;
+}
+[class="center"] {
+    background-color: yellow;
+}
+@media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+#agenda {
+    position:fixed;
+}
+
+div p {
+    background-color: yellow;
+}
+
+#action {
+    position: sticky;
+}
+h2:hover {
+    color: blue;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h2:active {
+    color: red;
+}
+
+p.one {
+    border-style:groove;
+    border-color: blue;
+    border-radius: 1px;
+    border-width: 1px;
+}
+
+p {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+h2 {
+    margin: 25px 50px 50px 100px;
+    padding: 25px 50px 50px 100px;
+    color:hsl(61, 100%, 100%)
+}
+/* This changes my body color */
+body {
+    background-color:bisque;
+    color: rgb(65, 13, 183);
+    text-decoration:underline;
+    text-align: center;
+}
+

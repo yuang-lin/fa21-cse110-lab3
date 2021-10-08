@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meeting Minutes</title>
+    <style>
+    h1 {color :aqua;
+    }
+    </style>
 </head>
 <body>
     <header>
@@ -19,7 +24,7 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="flex-container">
             <h2 id="attendees">Attendees:</h2>
             <p>&emsp;Paul&emsp;&emsp;&emsp;Jack&emsp;&emsp;&emsp;Jerry
                 &emsp;&emsp;&emsp;Michael&emsp;&emsp;&emsp;Lucy
@@ -30,7 +35,7 @@
             </p>
             <hr>
         </section>
-        <section>
+        <section> 
             <h2 id="agenda">Agenda:</h2>
             <ol>
                 <li>time: 7:30</li>
@@ -43,13 +48,13 @@
             </ol>
             <hr>
         </section>
-        <section>
+        <section class="grid-container">
             <h2 id="action">Action:</h2>
-            <p><b>team members all have piazza together</b></p>
-            <p><strong>team members share their work this week</strong></p>
-            <p><i>Paul start to present his topic</i></p>
-            <p><em>Jack start to present his topic</em></p>
-            <p><br>then we end our meeting</p>
+            <p style="color:rgb(76, 175, 76);" ><b>team members all have piazza together</b></p>
+            <p class="center"><strong>team members share their work this week</strong></p>
+            <p class="grid-item"><i>Paul start to present his topic</i></p>
+            <p class="grid-item"><em>Jack start to present his topic</em></p>
+            <p class="grid-item"><br>then we end our meeting</p>
             <hr>
         </section>
         <section>
