@@ -1,12 +1,12 @@
-Person &emsp;  &emsp;  &emsp; &emsp; Question       Monday       Tuesday       Wednesday
+Person &emsp; &emsp;  &emsp; &emsp; Question       Monday       Tuesday       Wednesday
 
-Jack       What did you do yesterday?
+Jack    What did you do yesterday?
 
 ​                      What will you do today?
 
 ​                                      Any obstacles you have?
 
-Lucy                              What did you do yesterday?
+Lucy                          What did you do yesterday?
 
 ​                                      What will you do today?
 
